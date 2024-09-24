@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt -br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfumaria</title>
+    <link rel="stylesheet" href="../CSS/novo_cadastro.css">
+</head>
+<body>
+  
+      
+
+            <div class="cadastro">
+        <h1>Cadastre-se!</h1>
+
+    <form id="formulario">
+       
+            
+               <p><label for="nome"> Nome:</label>
+               <input type="text" name = "nome" id="nome"></p>
+            
+
+            
+                <p><label> Sexo:</label></p>
+                <label for="M">Masculino</label>
+                <input type="radio" name = "sexo" id="M">
+
+                <label for="F" >Feminino</label>
+                <input type="radio" name = "sexo" id="F"></p>
+                
+             
+                <p><label for="email"> Email: <input type="email" name = "email" id="email"></label></p>
+                
+               
+               
+                    <p><label for="senha"> Senha: <input type="password" name = "senha" id="senha">
+                    </label></p>
+                    
+               
+                    <p><label for="csenha"> Confirmar senha:<input type="password" name="csenha" id="csenha"> </label></p>
+                
+
+                <label for="">Observações: <br>
+                    <textarea name="" id="observacao" cols="30" rows="5"></textarea>
+                </label><br>
+               <a href="index.html"> <input type="submit" name="" id=""> </a>
+               <input type="reset"></div>
+            
+        
+        
+    </form>
+    
+    <script>
+       document.getElementById("formulario").addEventListener('submit',(evt)=>{
+        evt.preventDefault()
+
+        if (document.getElementById('nome').value=== "")
+       {alert('Preencha o campo nome')
+        return
+
+       }
+
+       if(!document.querySelector('input[name="sexo"]:checked')){
+       alert('informe o genêro')
+       return
+       }
+       if (document.getElementById('email').value==="")
+       {alert('preencha o campo e-mail')
+       return
+        
+       }
+       if (document.getElementById('senha').value==="")
+       {alert('preencha o campo da senha')
+       return
+       }
+
+       if (document.getElementById('csenha').value==="")
+       {alert('preencha o campo da senha')
+       return
+       }
+      
+       
+       if (document.getElementById('observacao').value==="")
+       {alert('preencha o campo de observação')
+       return
+       }
+
+
+       window.location='./index.html'
+
+
+       })
+
+
+
+    </script>
+    
+    
+</body>
+</html>

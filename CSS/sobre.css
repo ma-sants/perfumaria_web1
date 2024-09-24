@@ -1,0 +1,35 @@
+
+@font-face{
+    font-family: 'minhafonte';
+    src: url(../fonte/Teko-VariableFont_wght.ttf);}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.icones{
+    float: right;
+}
+
+.topo{
+
+    display: flex; /* Ativa o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between;}
+
+    .cabeçalho{
+        background-color: #833d46;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+      
+     
+      }
+.titulo{ 
+    
+  margin-top: 5px;
+    margin-left: 60px;
+    color: #ebe0e0;
+    font-size: 23px;
+      font-family: minhafonte;}

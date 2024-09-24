@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@font-face{
+  font-family: 'minhafonte';
+  src: url(../fonte/Teko-VariableFont_wght.ttf);
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rajdhani", sans-serif;
+
+ 
+
+  
+}
+.corpo{
+    background-color: rgba(250, 224, 230, 0.397);
+}
+
+.promocao{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  background-color: #d4b5bb;
+  height: 220px;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  top: 63px;
+
+ 
+  
+ 
+ 
+}
+.promocaoDestaque{
+  color:#702825;
+ font-size: 25px;
+margin-left: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.promocaoDestaque2:hover{
+  background-color: rgb(232, 250, 68);
+  color: #020000;
+}
+.promocaoDestaque2{
+color: antiquewhite;
+margin-left: 30px;
+font-size: 30px;
+background-color: #702825;
+width: 320px;
+border-radius: 8px;
+
+}
+.txt{
+font-family: fantasy;
+margin-left: 1000px;
+  color: #853131;
+  font-size: 10px;
+ position: absolute;
+ top: 10px;
+}
+
+.preco{
+  font-size: 30px;
+  color: #020000;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.img{
+  position: absolute;
+ top: 10px;
+ margin-left: 750px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-top: 290px;
+   
+  
+    
+}
+
+.produto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    flex-basis: 10%;
+    text-align: center;
+
+
+    
+}
+
+.produto img {
+    width: 70%;  /* mantém a proporção original */
+    height: 250px;  /* define a altura da imagem */
+    margin-bottom: 10px; 
+    background-color: #fafaf8;
+ border-radius: 3px;
+ 
+
+
+
+}
+
+
+
+.fundo-cinza {
+    position: absolute; /* Posiciona o fundo absolutamente dentro do produto */
+    top: 0;
+    left: 0;
+    width: 70%; /* Define a largura do fundo */
+    height: 200px; /* Define a altura do fundo */
+    background-color: #ebe0e0; /* Cor cinza claro */
+    z-index: -1; /* Posiciona o fundo atrás da imagem */
+
+  }
+  .icone {
+    float: right;
+  }
+
+  .titulo {
+margin-top: 5px;
+  margin-left: 60px;
+  color: #ebe0e0;
+  font-size: 23px;
+    font-family: minhafonte;
+    
+  }
+
+  .topo {
+ display:flex ; /* Ativa o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    
+  }
+  .cabeçalho{
+    background-color: #833d46;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    padding-top:3px;
+ 
+  }
+  
+  
+  
